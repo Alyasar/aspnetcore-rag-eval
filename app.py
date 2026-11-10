@@ -19,14 +19,6 @@ st.markdown(
         padding-left: 12px !important;
         padding-right: 12px !important;
     }
-
-    [data-testid="stMarkdown"] p,
-    [data-testid="stMarkdown"] li { font-size: 20px !important; }              /* body text and lists */
-    [data-testid="stWidgetLabel"] p { font-size: 20px !important; }         /* labels above inputs, e.g. "Your question" */
-    [data-testid="stCaptionContainer"] p { font-size: 20px !important; }       /* small grey captions */
-    [data-testid="stTextInput"] input { font-size: 20px !important; }          /* the question box */
-    [data-testid="stExpander"] summary p { font-size: 20px !important; }       /* source titles */
-    .stButton button p, [data-testid="stFormSubmitButton"] button p { font-size: 20px !important; }   /* buttons */
     </style>
     """,
     unsafe_allow_html=True,
