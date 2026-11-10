@@ -1,0 +1,15 @@
+# Libraries the app needs, pinned to the exact versions this project was built and evaluated with.
+
+# CPU-only PyTorch: the hosting server has no GPU, and the default build bundles ~2 GB of GPU (CUDA)
+# libraries. This extra package index provides the much smaller CPU-only version.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+
+streamlit==1.67.0               # the web app framework
+pandas==3.1.1                   # tables (chunks, evaluation results)
+numpy==2.5.4                    # fast number arrays (sorting search scores)
+chromadb==1.5.9                 # vector database; must match the version that built data/chroma
+sentence-transformers==6.2.0    # embedding model and reranker
+rank-bm25==0.2.2                # keyword search
+groq==1.7.0                     # hosted LLM (used by the live app)
+ollama==0.6.3                   # local LLM (used when running on your own computer)

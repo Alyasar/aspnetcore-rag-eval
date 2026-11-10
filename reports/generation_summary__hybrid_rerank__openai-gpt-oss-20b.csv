@@ -1,0 +1,2 @@
+,n,Correct (yes),Partial,Wrong (no),Score,Hallucinated
+hybrid_rerank__openai-gpt-oss-20b,50.0,0.92,0.04,0.04,0.94,0.04

@@ -1,0 +1,11 @@
+# Python environment and caches: never upload these
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets: the Groq key must never reach GitHub
+.streamlit/secrets.toml
+.env
+
+# Raw docs: re-downloadable from Microsoft's repo (see README), so not stored here
+data/raw/
