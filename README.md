@@ -180,7 +180,7 @@ aspnetcore-rag-eval/
 ## Run it locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/aspnetcore-rag-eval.git
+git clone https://github.com/Alyasar/aspnetcore-rag-eval.git
 cd aspnetcore-rag-eval
 py -3.12 -m venv .venv
 .venv\Scripts\activate                       # Windows
