@@ -2,7 +2,7 @@
 
 A question-answering chatbot over Microsoft's official **ASP.NET Core 10** documentation (Blazor, Fundamentals and MVC) that answers **only from the docs, with numbered sources**, plus an **evaluation suite that measures how well it actually works**.
 
-**🔗 Live demo:** _add your Streamlit link here after deployment_
+**🔗 Live demo:** https://aspnetcore-rag-eval.streamlit.app/
 
 ![App screenshot](reports/app_screenshot.png)
 
